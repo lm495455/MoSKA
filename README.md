@@ -76,7 +76,7 @@ PTH-Net uses pre-extracted VideoMAE features (follow the official [PTH-Net](http
 python main_PTH_Net.py \
   --dataset FERv39k \
   --folds 1 \
-  --attack Poison_hello_kitty_avg_face_flow_0.1 \
+  --attack Poison_hello_kitty_avg_face_flow_0.1_0.2 \
   --data-root /path/to/features \
   --output-root ./outputs/pth_net \
   --gpu 0
